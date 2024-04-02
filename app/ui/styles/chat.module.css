@@ -1,0 +1,43 @@
+.container{
+    width: 632px;
+    margin: 0px auto;
+}
+.form{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    padding-bottom: 16px;
+}
+.btmform{
+    position: absolute;
+    bottom: 0px;
+    width: 632px;
+}
+.input{
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+.submit{
+    height: 32px;
+    border: 0px solid black;
+    background-color: azure;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+}
+.resdiv{
+    padding: 8px;
+}
+.userdiv{
+    padding: 8px;
+}
+.userpro{
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+}
